@@ -1,0 +1,32 @@
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\bin\Debug\netcoreapp2.2\DemoToken.deps.json
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\bin\Debug\netcoreapp2.2\DemoToken.runtimeconfig.json
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\bin\Debug\netcoreapp2.2\DemoToken.runtimeconfig.dev.json
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\bin\Debug\netcoreapp2.2\DemoToken.dll
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\bin\Debug\netcoreapp2.2\DemoToken.pdb
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.csprojAssemblyReference.cache
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.RazorAssemblyInfo.cache
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.RazorAssemblyInfo.cs
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.AssemblyInfoInputs.cache
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.AssemblyInfo.cs
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.RazorTargetAssemblyInfo.cache
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.dll
+C:\Temp\Palestras\JWT AspNetCore\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.pdb
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\AmigosAPI.deps.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\AmigosAPI.runtimeconfig.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\AmigosAPI.runtimeconfig.dev.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\AmigosAPI.dll
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\AmigosAPI.pdb
+C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.csprojAssemblyReference.cache
+C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.RazorAssemblyInfo.cache
+C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.RazorAssemblyInfo.cs
+C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.AssemblyInfoInputs.cache
+C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.AssemblyInfo.cs
+C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\DemoToken.RazorTargetAssemblyInfo.cache
+C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\AmigosAPI.dll
+C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\AmigosAPI.pdb
