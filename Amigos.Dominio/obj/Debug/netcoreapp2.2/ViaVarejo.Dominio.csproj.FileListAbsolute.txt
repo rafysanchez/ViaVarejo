@@ -1,0 +1,9 @@
+C:\Temp\ViaVarejo\Amigos.Dominio\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.deps.json
+C:\Temp\ViaVarejo\Amigos.Dominio\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.runtimeconfig.json
+C:\Temp\ViaVarejo\Amigos.Dominio\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.runtimeconfig.dev.json
+C:\Temp\ViaVarejo\Amigos.Dominio\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.dll
+C:\Temp\ViaVarejo\Amigos.Dominio\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.pdb
+C:\Temp\ViaVarejo\Amigos.Dominio\obj\Debug\netcoreapp2.2\ViaVarejo.Dominio.AssemblyInfoInputs.cache
+C:\Temp\ViaVarejo\Amigos.Dominio\obj\Debug\netcoreapp2.2\ViaVarejo.Dominio.AssemblyInfo.cs
+C:\Temp\ViaVarejo\Amigos.Dominio\obj\Debug\netcoreapp2.2\ViaVarejo.Dominio.dll
+C:\Temp\ViaVarejo\Amigos.Dominio\obj\Debug\netcoreapp2.2\ViaVarejo.Dominio.pdb

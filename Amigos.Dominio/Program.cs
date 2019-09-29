@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Amigos.Dominio
+namespace ViaVarejo.Dominio
 {
     class Program
     {

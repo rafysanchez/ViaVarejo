@@ -4720,6 +4720,30 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "ViaVarejo.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/ViaVarejo.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaVarejo.Dominio.dll": {}
+        }
+      },
+      "ViaVarejo.Repositorio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
+          "ViaVarejo.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ViaVarejo.Repositorio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViaVarejo.Repositorio.dll": {}
+        }
       }
     }
   },
@@ -13012,6 +13036,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "ViaVarejo.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Amigos.Dominio/ViaVarejo.Dominio.csproj",
+      "msbuildProject": "../Amigos.Dominio/ViaVarejo.Dominio.csproj"
+    },
+    "ViaVarejo.Repositorio/1.0.0": {
+      "type": "project",
+      "path": "../Amigos.Repositorio/ViaVarejo.Repositorio.csproj",
+      "msbuildProject": "../Amigos.Repositorio/ViaVarejo.Repositorio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13019,7 +13053,9 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
+      "ViaVarejo.Dominio >= 1.0.0",
+      "ViaVarejo.Repositorio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13051,7 +13087,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Temp\\ViaVarejo\\Amigos.Dominio\\ViaVarejo.Dominio.csproj": {
+              "projectPath": "C:\\Temp\\ViaVarejo\\Amigos.Dominio\\ViaVarejo.Dominio.csproj"
+            },
+            "C:\\Temp\\ViaVarejo\\Amigos.Repositorio\\ViaVarejo.Repositorio.csproj": {
+              "projectPath": "C:\\Temp\\ViaVarejo\\Amigos.Repositorio\\ViaVarejo.Repositorio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

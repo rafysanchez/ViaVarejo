@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using AmigosAPI.Models;
 using Microsoft.AspNetCore.Authorization;
 
+using AmigosApi.Data;
+
 namespace AmigosAPI.Controllers
 {
     [Authorize]

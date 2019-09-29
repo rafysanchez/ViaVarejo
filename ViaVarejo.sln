@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmigosApi", "DemoToken\Amig
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amigos", "Amigos\Amigos.csproj", "{AFFACB16-920C-48C3-A76B-25CB1E9190AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amigos.Dominio", "Amigos.Dominio\Amigos.Dominio.csproj", "{A12D0AB5-98D0-4454-825D-5D85C3B732E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViaVarejo.Dominio", "Amigos.Dominio\ViaVarejo.Dominio.csproj", "{A12D0AB5-98D0-4454-825D-5D85C3B732E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amigos.Repositorio", "Amigos.Repositorio\Amigos.Repositorio.csproj", "{EA2529A8-0646-4782-B161-C926F04CFD28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViaVarejo.Repositorio", "Amigos.Repositorio\ViaVarejo.Repositorio.csproj", "{EA2529A8-0646-4782-B161-C926F04CFD28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-IOC", "5-IOC", "{547CD107-E6F2-4CFC-847A-1417EFC160CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

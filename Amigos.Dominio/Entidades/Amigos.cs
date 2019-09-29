@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Amigos.Dominio.Entidades
+namespace ViaVarejo.Dominio.Entidades
 {
-   public  class Amigos
+   public  class Amigo
     {
         public int Id { get; set; }
         public string Nome { get; set; }
         public string CEP { get; set; }
         public double Latitude { get; set; }
-        public double L0ongitude { get; set; }
+        public double Longitude { get; set; }
 
     }
 }

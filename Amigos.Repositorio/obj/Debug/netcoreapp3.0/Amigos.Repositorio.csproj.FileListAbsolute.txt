@@ -1,0 +1,11 @@
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp3.0\Amigos.Repositorio.exe
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp3.0\Amigos.Repositorio.deps.json
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp3.0\Amigos.Repositorio.runtimeconfig.json
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp3.0\Amigos.Repositorio.runtimeconfig.dev.json
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp3.0\Amigos.Repositorio.dll
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp3.0\Amigos.Repositorio.pdb
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp3.0\Amigos.Repositorio.csprojAssemblyReference.cache
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp3.0\Amigos.Repositorio.AssemblyInfoInputs.cache
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp3.0\Amigos.Repositorio.AssemblyInfo.cs
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp3.0\Amigos.Repositorio.dll
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp3.0\Amigos.Repositorio.pdb

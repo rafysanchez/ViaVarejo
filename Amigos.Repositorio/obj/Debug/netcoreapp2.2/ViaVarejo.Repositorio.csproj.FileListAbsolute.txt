@@ -1,0 +1,13 @@
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp2.2\ViaVarejo.Repositorio.deps.json
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp2.2\ViaVarejo.Repositorio.runtimeconfig.json
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp2.2\ViaVarejo.Repositorio.runtimeconfig.dev.json
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp2.2\ViaVarejo.Repositorio.dll
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp2.2\ViaVarejo.Repositorio.pdb
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.dll
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.pdb
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.csprojAssemblyReference.cache
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.AssemblyInfoInputs.cache
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.AssemblyInfo.cs
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.csproj.CopyComplete
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.dll
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.pdb

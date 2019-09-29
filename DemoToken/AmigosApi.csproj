@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -8,9 +8,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20190618150035_initial.cs" />
+    <Compile Remove="Migrations\20190618150035_initial.Designer.cs" />
+    <Compile Remove="Migrations\20190618190433_identity.cs" />
+    <Compile Remove="Migrations\20190618190433_identity.Designer.cs" />
+    <Compile Remove="Migrations\20190928172709_Init.cs" />
+    <Compile Remove="Migrations\20190928172709_Init.Designer.cs" />
+    <Compile Remove="Migrations\20190929155421_amigo adiconado.cs" />
+    <Compile Remove="Migrations\20190929155421_amigo adiconado.Designer.cs" />
+    <Compile Remove="Migrations\DemoTokenContextModelSnapshot.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Amigos.Dominio\ViaVarejo.Dominio.csproj" />
+    <ProjectReference Include="..\Amigos.Repositorio\ViaVarejo.Repositorio.csproj" />
   </ItemGroup>
 
 </Project>
