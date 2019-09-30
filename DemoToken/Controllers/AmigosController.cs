@@ -22,7 +22,7 @@ namespace AmigosApi.Controllers
         }
         // GET: api/Amigos
         [HttpGet]
-        public IEnumerable<Amigo> Get()
+        public List<Amigo> Get()
         {
             return _iamigosService.GetAmigos();
         }
