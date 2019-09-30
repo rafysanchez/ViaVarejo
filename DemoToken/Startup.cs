@@ -27,6 +27,7 @@ namespace AmigosAPI
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+
             services.AddDbContext<AmigosAPIContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("AmigosAPIContext")));
 
@@ -35,7 +36,7 @@ namespace AmigosAPI
                 .AddEntityFrameworkStores<AmigosAPIContext>()
                 .AddDefaultTokenProviders();
 
-
+            services.AddCors();
             // injecao 
 
             services.AddTransient<IAmigosService, AmigoService>();
@@ -80,9 +81,13 @@ namespace AmigosAPI
                 app.UseHsts();
             }
 
+            app.UseCors(builder => builder.WithOrigins("http://localhost:58957").AllowAnyHeader().AllowAnyMethod());
+
             app.UseHttpsRedirection();
 
             app.UseAuthentication();
+           
+         
             app.UseMvc();
         }
     }

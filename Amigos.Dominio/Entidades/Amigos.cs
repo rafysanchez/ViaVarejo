@@ -11,6 +11,6 @@ namespace ViaVarejo.Dominio.Entidades
         public string CEP { get; set; }
         public double Latitude { get; set; }
         public double Longitude { get; set; }
-
+        public double Distancia { get; set; }
     }
 }

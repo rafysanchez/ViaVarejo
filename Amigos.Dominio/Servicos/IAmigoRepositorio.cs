@@ -15,6 +15,6 @@ namespace ViaVarejo.Dominio.Servicos
 
         bool InsertAmigo(Amigo _amigo);
 
-        List<Amigo> GeProximos(Amigo amigo);
+       
     }
 }

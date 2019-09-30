@@ -16,6 +16,7 @@ namespace ViaVarejo.Repositorio
     {
        
         string ConectionString = "Server=(localdb)\\mssqllocaldb;Database=AmigosAPIContext;Trusted_Connection=True;MultipleActiveResultSets=true";
+        
         public AmigoRepositorio()
         {
         }
@@ -25,10 +26,9 @@ namespace ViaVarejo.Repositorio
             throw new NotImplementedException();
         }
 
-        public List<Amigo> GeProximos(Amigo amigo)
+        public List<Amigo> GeProximos(Amigo amigo = null, string Latitude = "", string Longitude = "")
         {
            
-
             throw new NotImplementedException();
         }
 

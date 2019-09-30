@@ -32,3 +32,4 @@ C:\Temp\ViaVarejo\Amigos\obj\Debug\netcoreapp3.0\Amigos.Views.pdb
 C:\Temp\ViaVarejo\Amigos\obj\Debug\netcoreapp3.0\Amigos.dll
 C:\Temp\ViaVarejo\Amigos\obj\Debug\netcoreapp3.0\Amigos.pdb
 C:\Temp\ViaVarejo\Amigos\obj\Debug\netcoreapp3.0\Amigos.csproj.CopyComplete
+C:\Temp\ViaVarejo\Amigos\obj\Debug\netcoreapp3.0\Amigos.csprojAssemblyReference.cache

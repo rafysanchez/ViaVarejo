@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using ViaVarejo.Dominio.Entidades;
 
@@ -18,10 +19,7 @@ namespace ViaVarejo.Dominio.Servicos
             return _amigoRepositorio.DeleteAmigo(amigo);
         }
 
-        public List<Amigo> GeProximos(Amigo amigo)
-        {
-            return _amigoRepositorio.GeProximos(amigo);
-        }
+
 
         public Amigo GetAmigoById(Amigo amigo)
         {
@@ -43,6 +41,56 @@ namespace ViaVarejo.Dominio.Servicos
             return _amigoRepositorio.InsertAmigo(_amigo);
         }
 
+        List<Amigo> IAmigosService.proximos(Amigo amigo)
+        {
+            List<Amigo> listaComDistancia = new List<Amigo>();
+            var todosAmigos = _amigoRepositorio.GetAmigos();
+            var amigoAtual = todosAmigos.Find(x => x.Id == amigo.Id);
+
+            foreach (var item in todosAmigos)
+            {
+                Amigo TempAmigo = new Amigo();
+                TempAmigo.Id = item.Id;
+                TempAmigo.Nome = item.Nome;
+                TempAmigo.CEP = item.CEP;
+                TempAmigo.Distancia = Distance(item.Latitude, item.Longitude, amigo.Latitude, amigo.Longitude);
+                listaComDistancia.Add(TempAmigo);
+            }
+
+            var proximos = listaComDistancia.OrderBy(x => x.Distancia).Take(3);
+            return proximos.ToList();
+        }
+
+        public class Distancia
+        {
+            public double RadianosOrigem;
+            public double RadianosDestino;
+            public double RadianosTheta;
+            public double Seno;
+            public double Coseno;
+            public double Angulo;
+            public double Milhas;
+            public double Kilometros;
+
+        }
+
+        public double Distance(double lat1, double lon1, double lat2, double lon2)
+        {
+
+            Distancia calculo = new Distancia();
+            calculo.RadianosOrigem = Math.PI * lat1 / 180;
+            calculo.RadianosDestino = Math.PI * lat2 / 180;
+            calculo.RadianosTheta = Math.PI * (lon1 - lon2) / 180;
+
+            calculo.Seno = Math.Sin(calculo.RadianosOrigem) * Math.Sin(calculo.RadianosDestino);
+            calculo.Coseno = Math.Cos(calculo.RadianosOrigem) * Math.Cos(calculo.RadianosDestino) * Math.Cos(calculo.RadianosTheta);
+            calculo.Angulo = Math.Acos(calculo.Seno + calculo.Coseno);
+            calculo.Milhas = calculo.Angulo * 180 / Math.PI * 60 * 1.1515;
+            var Kilometros = calculo.Milhas * 1.609344;
+
+            return Kilometros;
+
+        }
 
     }
 }

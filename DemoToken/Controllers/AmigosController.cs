@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace AmigosApi.Controllers
 {
-    //[Authorize]
+   
     [Route("api/[controller]")]
     [ApiController]
     public class AmigosController : ControllerBase
@@ -20,10 +20,35 @@ namespace AmigosApi.Controllers
         {
             _iamigosService = iamigosService;
         }
+
+        [Authorize]
+        public List<Amigo> Proximos(Amigo amigo)
+        {
+            return _iamigosService.proximos(amigo);
+        }
+
+
+        [HttpPost]
+        public  List<Amigo> GetUsers()
+        {
+            //return Json(new
+            //{
+            var AmigosList = from u in _iamigosService.GetAmigos()
+                             select new { Nome = u.Nome, Id = u.Id };
+
+            //});
+            var amigos = _iamigosService.GetAmigos();
+            return amigos;
+        }
+
+
+
         // GET: api/Amigos
         [HttpGet]
         public List<Amigo> Get()
         {
+            System.Threading.Thread.Sleep(5000);
+
             return _iamigosService.GetAmigos();
         }
 
@@ -34,8 +59,9 @@ namespace AmigosApi.Controllers
             return "value";
         }
 
-        
+
         // POST: api/Amigos
+        [Authorize]
         [HttpPost]
         public ActionResult<Amigo> PostAmigo(Amigo amigo)
         {
@@ -53,12 +79,14 @@ namespace AmigosApi.Controllers
         }
 
         // PUT: api/Amigos/5
+        [Authorize]
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
         // DELETE: api/ApiWithActions/5
+        [Authorize]
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
