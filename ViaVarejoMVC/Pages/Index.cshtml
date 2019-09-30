@@ -6,52 +6,53 @@
 
 
 
-<div class="container">
+    <div class="container">
 
-    <div class="text-center jumbotron">
-        <h1 class="display-4">Encontrando Amigos</h1>
+        <div class="text-center jumbotron">
+            <h1 class="display-4">Encontrando Amigos</h1>
 
-    </div>
-
-    <div class="row">
-        <div class="col-md-12">
-
-            <form>
-                <label for="Pesquisa" class="form-control">Selecione  o amigo atual</label>
-                <select name="Pesquisa" id="Pesquisa" class="form-control" onclick="BuscarProximos();">
-                    <option value="0">Selecione</option>
-                </select>
-
-            </form>
         </div>
 
-    </div>
-    <div class="row" style="margin-top:2%;">
-        <div class="col-md-12">
-            <table id="AmigosTable" class="table table-striped table-bordered" style="width:100%;">
-                <thead>
-                    <tr>
-                        <th scope="col" style="width:10%;">#</th>
-                        <th scope="col" style="width:70%;">Nome</th>
-                        <th scope="col" style="width:20%;">Distancia</th>
+        <div class="row">
+            <div class="col-md-12">
 
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Ana</td>
-                        <td>1000</td>
+                <form>
+                    <label for="Pesquisa" class="form-control">Selecione  o amigo atual</label>
+                    <select name="Pesquisa" id="Pesquisa" class="form-control" onclick="BuscarProximos();">
+                        <option value="0">Selecione</option>
+                    </select>
 
-                    </tr>
+                </form>
+            </div>
 
-
-                </tbody>
-            </table>
         </div>
+        <div class="row" style="margin-top:2%;">
+            <div class="col-md-12">
+                <table id="AmigosTable" class="table table-striped table-bordered" style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th scope="col" style="width:10%;">#</th>
+                            <th scope="col" style="width:70%;">Nome</th>
+                            <th scope="col" style="width:20%;">Distancia</th>
 
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Ana</td>
+                            <td>1000</td>
+
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <p>Atenção ao ajustar a connection string, pois para demosntrar diversas tecnologias tive de colocar a conexao da api no repositorio <br> deixei uma api demo feitra em EF core. Possui identity core com authorization</p>
     </div>
-</div>
 
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -72,7 +73,7 @@
 
         $.ajax({
             type: "GET",
-            url: "http://localhost:52940/api/amigos/",
+            url: "http://localhost:52940/api/pesquisa/",
             data: { 'Id': Id },
             success: function (data) {
                 console.log(data);
@@ -83,7 +84,13 @@
 
                     $('#AmigosTable tbody').append('<TR><TD>' + d.id + '</TD><TD>' + d.nome + '</TD><TD>' + d.distancia + '</TD></TR>');
                 });
-            }
+            },
+              error: function (XMLHttpRequest, textStatus, errorThrown) {
+                  console.log(XMLHttpRequest);
+                  console.log(textStatus);
+                  console.log(errorThrown);
+
+              }
         });
 
     }

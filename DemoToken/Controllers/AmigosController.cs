@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace AmigosApi.Controllers
 {
-   
+
     [Route("api/[controller]")]
     [ApiController]
     public class AmigosController : ControllerBase
@@ -21,43 +21,15 @@ namespace AmigosApi.Controllers
             _iamigosService = iamigosService;
         }
 
-        [Authorize]
-        public List<Amigo> Proximos(Amigo amigo)
-        {
-            return _iamigosService.proximos(amigo);
-        }
-
-
-        [HttpPost]
-        public  List<Amigo> GetUsers()
-        {
-            //return Json(new
-            //{
-            var AmigosList = from u in _iamigosService.GetAmigos()
-                             select new { Nome = u.Nome, Id = u.Id };
-
-            //});
-            var amigos = _iamigosService.GetAmigos();
-            return amigos;
-        }
-
-
-
         // GET: api/Amigos
         [HttpGet]
         public List<Amigo> Get()
         {
-            System.Threading.Thread.Sleep(5000);
 
             return _iamigosService.GetAmigos();
         }
 
-        // GET: api/Amigos/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+   
 
 
         // POST: api/Amigos
@@ -70,7 +42,7 @@ namespace AmigosApi.Controllers
                 _iamigosService.InsertAmigo(amigo);
                 return Ok();
             }
-            catch 
+            catch
             {
 
                 return BadRequest();
@@ -91,5 +63,26 @@ namespace AmigosApi.Controllers
         public void Delete(int id)
         {
         }
+    }
+
+
+    //[HttpPost]
+    //public List<Amigo> GetUsers()
+    //{
+    //    //return Json(new
+    //    //{
+    //    var AmigosList = from u in _iamigosService.GetAmigos()
+    //                     select new { Nome = u.Nome, Id = u.Id };
+
+    //    //});
+    //    var amigos = _iamigosService.GetAmigos();
+    //    return amigos;
+    //}
+
+
+    public class Resposta
+    {
+        public int Id { get; set; }
+        public string Nome { get; set; }
     }
 }

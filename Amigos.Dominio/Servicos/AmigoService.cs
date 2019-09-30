@@ -41,24 +41,34 @@ namespace ViaVarejo.Dominio.Servicos
             return _amigoRepositorio.InsertAmigo(_amigo);
         }
 
-        List<Amigo> IAmigosService.proximos(Amigo amigo)
+        List<Amigo> IAmigosService.proximos(int Id)
         {
-            List<Amigo> listaComDistancia = new List<Amigo>();
-            var todosAmigos = _amigoRepositorio.GetAmigos();
-            var amigoAtual = todosAmigos.Find(x => x.Id == amigo.Id);
-
-            foreach (var item in todosAmigos)
+            // var amigo = new Amigo();
+            if (Id > 0)
             {
-                Amigo TempAmigo = new Amigo();
-                TempAmigo.Id = item.Id;
-                TempAmigo.Nome = item.Nome;
-                TempAmigo.CEP = item.CEP;
-                TempAmigo.Distancia = Distance(item.Latitude, item.Longitude, amigo.Latitude, amigo.Longitude);
-                listaComDistancia.Add(TempAmigo);
+                List<Amigo> listaComDistancia = new List<Amigo>();
+                var todosAmigos = _amigoRepositorio.GetAmigos();
+                var amigoAtual = todosAmigos.Find(x => x.Id == Id);
+                todosAmigos.Remove(amigoAtual);
+
+                foreach (var item in todosAmigos)
+                {
+                    Amigo TempAmigo = new Amigo();
+                    TempAmigo.Id = item.Id;
+                    TempAmigo.Nome = item.Nome;
+                    TempAmigo.CEP = item.CEP;
+                    TempAmigo.Distancia = Distance(item.Latitude, item.Longitude, amigoAtual.Latitude, amigoAtual.Longitude);
+                    listaComDistancia.Add(TempAmigo);
+                }
+
+                var proximos = listaComDistancia.OrderBy(x => x.Distancia).Take(3);
+                return proximos.ToList();
+            }
+            else
+            {
+                return new List<Amigo>();
             }
 
-            var proximos = listaComDistancia.OrderBy(x => x.Distancia).Take(3);
-            return proximos.ToList();
         }
 
         public class Distancia

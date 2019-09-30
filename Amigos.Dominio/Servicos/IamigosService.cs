@@ -12,7 +12,7 @@ namespace ViaVarejo.Dominio.Servicos
         Amigo GetAmigoById(Amigo amigo);
         bool DeleteAmigo(Amigo amigo);
         bool InsertAmigo(Amigo _amigo);
-        List<Amigo> proximos(Amigo amigo);
+        List<Amigo> proximos(int Id);
        
     }
 }

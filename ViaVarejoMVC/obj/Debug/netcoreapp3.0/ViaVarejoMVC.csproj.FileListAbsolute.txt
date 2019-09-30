@@ -32,4 +32,3 @@ C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.Views.pdb
 C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.dll
 C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.pdb
 C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.csproj.CopyComplete
-C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.csprojAssemblyReference.cache
