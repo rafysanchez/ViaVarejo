@@ -5,7 +5,6 @@ C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\AmigosApi.AssemblyInfoInputs
 C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\AmigosApi.AssemblyInfo.cs
 C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\appsettings.Development.json
 C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\appsettings.json
-C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
 C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\AmigosAPI.deps.json
 C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\AmigosAPI.runtimeconfig.json
 C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\AmigosAPI.runtimeconfig.dev.json
@@ -19,3 +18,11 @@ C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\AmigosApi.RazorTargetAssembl
 C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\AmigosApi.csproj.CopyComplete
 C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\AmigosAPI.dll
 C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\AmigosAPI.pdb
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.deps.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.runtimeconfig.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.runtimeconfig.dev.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\ViaVarejo.Repositorio.deps.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\ViaVarejo.Repositorio.runtimeconfig.json
+C:\Temp\ViaVarejo\DemoToken\bin\Debug\netcoreapp2.2\ViaVarejo.Repositorio.runtimeconfig.dev.json
+C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\AmigosApi.csproj.CoreCompileInputs.cache
+C:\Temp\ViaVarejo\DemoToken\obj\Debug\netcoreapp2.2\AmigosApi.genruntimeconfig.cache

@@ -81,7 +81,7 @@ namespace AmigosAPI
                 app.UseHsts();
             }
 
-            app.UseCors(builder => builder.WithOrigins("http://localhost:58957").AllowAnyHeader().AllowAnyMethod());
+            app.UseCors(builder => builder.WithOrigins("http://localhost:58957" , "http://www.meusite.com").AllowAnyHeader().AllowAnyMethod());
 
             app.UseHttpsRedirection();
 

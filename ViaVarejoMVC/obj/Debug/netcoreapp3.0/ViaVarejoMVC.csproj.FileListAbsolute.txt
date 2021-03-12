@@ -1,6 +1,5 @@
 C:\Temp\ViaVarejo\ViaVarejoMVC\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\Temp\ViaVarejo\ViaVarejoMVC\bin\Debug\netcoreapp3.0\appsettings.json
-C:\Temp\ViaVarejo\ViaVarejoMVC\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
 C:\Temp\ViaVarejo\ViaVarejoMVC\bin\Debug\netcoreapp3.0\ViaVarejoMVC.exe
 C:\Temp\ViaVarejo\ViaVarejoMVC\bin\Debug\netcoreapp3.0\ViaVarejoMVC.deps.json
 C:\Temp\ViaVarejo\ViaVarejoMVC\bin\Debug\netcoreapp3.0\ViaVarejoMVC.runtimeconfig.json
@@ -32,3 +31,7 @@ C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.Views.pdb
 C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.dll
 C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.pdb
 C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.csproj.CopyComplete
+C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.csprojAssemblyReference.cache
+C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.csproj.CoreCompileInputs.cache
+C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\scopedcss\bundle\ViaVarejoMVC.styles.css
+C:\Temp\ViaVarejo\ViaVarejoMVC\obj\Debug\netcoreapp3.0\ViaVarejoMVC.genruntimeconfig.cache

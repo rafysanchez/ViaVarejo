@@ -11,3 +11,8 @@ C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositor
 C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.csproj.CopyComplete
 C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.dll
 C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.pdb
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.deps.json
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.runtimeconfig.json
+C:\Temp\ViaVarejo\Amigos.Repositorio\bin\Debug\netcoreapp2.2\ViaVarejo.Dominio.runtimeconfig.dev.json
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.csproj.CoreCompileInputs.cache
+C:\Temp\ViaVarejo\Amigos.Repositorio\obj\Debug\netcoreapp2.2\ViaVarejo.Repositorio.genruntimeconfig.cache

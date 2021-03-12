@@ -15,7 +15,7 @@ namespace AmigosAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    public class AuthController : Controller
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
@@ -30,8 +30,8 @@ namespace AmigosAPI.Controllers
             _appSettings = appSettings.Value;
         }
 
-        [HttpPost("nova-conta")]
-        public async Task<ActionResult> Registrar(RegisterUserViewModel registerUser)
+        [HttpPost("Registrar")]
+        public IActionResult Registrar(RegisterUserViewModel registerUser)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState.Values.SelectMany(e => e.Errors));
 
@@ -42,13 +42,13 @@ namespace AmigosAPI.Controllers
                 EmailConfirmed = true
             };
 
-            var result = await _userManager.CreateAsync(user, registerUser.Password);
+            var result =  _userManager.CreateAsync(user, registerUser.Password);
 
-            if (!result.Succeeded) return BadRequest(result.Errors);
+           // if (!result.Succeeded) return BadRequest(result.Errors);
 
-            await _signInManager.SignInAsync(user, false);
+             _signInManager.SignInAsync(user, false);
 
-            return Ok(await GerarJwt(registerUser.Email));
+            return Ok( GerarJwt(registerUser.Email));
         }
 
         [HttpPost("entrar")]
